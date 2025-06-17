@@ -1,0 +1,7 @@
+Bug ID,Summary,Steps to Reproduce,Expected Outcome,Actual Outcome,Status
+BUG-001,Misclassification of sarcasm,"Input: 'Great, another Monday!'",Neutral,Negative,Open
+BUG-002,Mixed sentiment mislabelled,"Input: 'Loved the app, hated the UI'",Neutral,Positive,Fixed
+BUG-003,App crashes sentiment missed,"Input: 'The app crashes too often'",Negative,Neutral,Open
+BUG-004,Sarcasm detection missing,"Input: 'Not what I expected'",Neutral,Negative,Open
+BUG-005,Neutral inputs often tagged Positive,"Input: 'So-so experience'",Neutral,Positive,Fixed
+BUG-006,Confusing mixed feedback,"Input: 'Terrible UI but great features'",Neutral,Positive,Open
