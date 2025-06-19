@@ -16,4 +16,4 @@ This project contains QA assets and scripts for testing a basic AI sentiment cla
 ### Run regression tests
 
 ```bash
-python regression_tests/regression_test_runner.py
+python3 -m regression_tests.regression_test_runner
